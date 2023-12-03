@@ -3,10 +3,12 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-image: url('assets/bg.jpeg'); 
+  background-size: cover; 
  }
  
  .navbar {
-  background-color: blue;
+  background-color:whitesmoke ;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -16,7 +18,7 @@ body, html {
  
  .text {
   text-align: center;
-  color: #f1f1f1;
+  color:black;
  }
  
  .container {
@@ -39,8 +41,8 @@ body, html {
  
  @media screen and (max-width: 600px) {
   .card {
-   width: 100%;
-   margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 20px;
   }
  }
  
